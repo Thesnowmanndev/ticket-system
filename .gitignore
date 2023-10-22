@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+ticket-app/.pnp.cjs
+ticket-app/.pnp.loader.mjs
+ticket-app/.yarn/install-state.gz
