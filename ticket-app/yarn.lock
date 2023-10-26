@@ -138,6 +138,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/free-brands-svg-icons@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "@fortawesome/free-brands-svg-icons@npm:6.4.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": "npm:6.4.2"
+  checksum: af0df8cd2d8242bc96435a7977935b82828727f8639670e1247311c6d03d1b78d7db50830c010c2f0d53bd07fe5b036b5742bd280aa5744c95e863d27637efaf
+  languageName: node
+  linkType: hard
+
 "@fortawesome/free-solid-svg-icons@npm:^6.4.2":
   version: 6.4.2
   resolution: "@fortawesome/free-solid-svg-icons@npm:6.4.2"
@@ -3998,6 +4007,7 @@ __metadata:
   resolution: "ticket-app@workspace:."
   dependencies:
     "@fortawesome/fontawesome-svg-core": "npm:^6.4.2"
+    "@fortawesome/free-brands-svg-icons": "npm:^6.4.2"
     "@fortawesome/free-solid-svg-icons": "npm:^6.4.2"
     "@fortawesome/react-fontawesome": "npm:^0.2.0"
     autoprefixer: "npm:^10"
