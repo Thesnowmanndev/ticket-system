@@ -14,6 +14,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -33,6 +34,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -48,6 +50,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -67,6 +70,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -86,6 +90,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -105,6 +110,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -125,6 +131,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -145,6 +152,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
@@ -164,6 +172,7 @@ const DropdownMenu = () => {
           href="#"
           className="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group"
         >
+          {/* TODO: REFACTOR SVG */}
           <svg
             aria-hidden="true"
             className="mx-auto mb-1 w-7 h-7 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"

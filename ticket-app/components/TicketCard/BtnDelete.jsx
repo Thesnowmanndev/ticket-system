@@ -4,6 +4,7 @@ const BtnDelete = () => {
       type="button"
       className="inline-flex items-center mx-2 my-2 px-3 py-2 text-sm font-medium text-center rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
     >
+      {/* TODO: REFACTOR SVG */}
       <svg
         className="w-6 h-6 text-white"
         aria-hidden="true"

@@ -2,20 +2,21 @@
 
 import { useState } from 'react';
 
+import BlurredBackground from '@/components/Dashboard/BlurredBackground';
 import Navbar from '@/components/Navbar/Navbar';
 import ReadModal from '@/components/ReadModal/ReadModal';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import TicketCard from '@/components/TicketCard/TicketCard';
 
 const Dashboard = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [readModalIsOpen, setReadModalIsOpen] = useState(false);
 
-  function openModal() {
-    setModalIsOpen(true);
+  function openReadModal() {
+    setReadModalIsOpen(true);
   }
 
-  function closeModal() {
-    setModalIsOpen(false);
+  function closeReadModal() {
+    setReadModalIsOpen(false);
   }
 
   return (
@@ -25,28 +26,26 @@ const Dashboard = () => {
 
       <main className="p-4 md:ml-64 pt-20 mt-8 lg:mt-0 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 mb-4">
-          <div onClick={openModal}>
+          <div onClick={openReadModal}>
             <TicketCard />
           </div>
-          <div onClick={openModal}>
+          <div onClick={openReadModal}>
             <TicketCard />
           </div>
-          <div onClick={openModal}>
+          <div onClick={openReadModal}>
             <TicketCard />
           </div>
-          <div onClick={openModal}>
+          <div onClick={openReadModal}>
             <TicketCard />
           </div>
         </div>
       </main>
 
-      {modalIsOpen && (
+      {readModalIsOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="absolute inset-0 bg-gray-900 bg-opacity-50 backdrop-blur-sm">
-            {/* This creates the shaded and blurred background */}
-          </div>
+          <BlurredBackground />
           <div className="relative">
-            <ReadModal onClick={closeModal} />
+            <ReadModal onClick={closeReadModal} />
           </div>
         </div>
       )}
