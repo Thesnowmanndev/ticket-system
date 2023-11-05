@@ -59,6 +59,7 @@ const UserDropdownMenu = () => {
               href="#"
               className="flex items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
+              {/* TODO: REFACTOR SVG */}
               <svg
                 className="mr-2 w-5 h-5 text-gray-400"
                 fill="currentColor"
@@ -79,6 +80,7 @@ const UserDropdownMenu = () => {
               href="#"
               className="flex items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
+              {/* TODO: REFACTOR SVG */}
               <svg
                 className="mr-2 w-5 h-5 text-gray-400"
                 fill="currentColor"
@@ -96,6 +98,7 @@ const UserDropdownMenu = () => {
               className="flex justify-between items-center py-2 px-4 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
             >
               <span className="flex items-center">
+                {/* TODO: REFACTOR SVG */}
                 <svg
                   aria-hidden="true"
                   className="mr-2 w-5 h-5 text-primary-600 dark:text-primary-500"
@@ -111,6 +114,7 @@ const UserDropdownMenu = () => {
                 </svg>
                 Pro version
               </span>
+              {/* TODO: REFACTOR SVG */}
               <svg
                 aria-hidden="true"
                 className="w-5 h-5 text-gray-400"

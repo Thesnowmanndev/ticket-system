@@ -6,6 +6,7 @@ const MobileToggleSidebar = () => {
       aria-controls="drawer-navigation"
       className="p-2 mr-2 text-gray-600 rounded-lg cursor-pointer md:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
     >
+      {/* TODO: REFACTOR SVG */}
       <svg
         aria-hidden="true"
         className="w-6 h-6"
@@ -19,6 +20,7 @@ const MobileToggleSidebar = () => {
           clipRule="evenodd"
         ></path>
       </svg>
+      {/* TODO: REFACTOR SVG */}
       <svg
         aria-hidden="true"
         className="hidden w-6 h-6"

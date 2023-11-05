@@ -25,6 +25,7 @@ const TicketCard = () => {
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-gray-900 dark:text-white"
         >
           Read more
+          {/* TODO: REFACTOR SVG */}
           <svg
             className="w-3.5 h-3.5 ml-2"
             aria-hidden="true"

@@ -2,7 +2,7 @@ import PriorityRating from '@/components/TicketCard/PriorityRating';
 import ProgressBar from '@/components/TicketCard/ProgressBar';
 import StatusDisplay from '@/components/TicketCard/StatusDisplay';
 
-function ReadModal(props) {
+const ReadModal = (props) => {
   function deleteTicket() {
     console.log('delete');
   }
@@ -22,6 +22,7 @@ function ReadModal(props) {
               className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
               onClick={props.onClick}
             >
+              {/* TODO: REFACTOR SVG */}
               <svg
                 className="w-3 h-3"
                 aria-hidden="true"
@@ -85,6 +86,6 @@ function ReadModal(props) {
       </div>
     </div>
   );
-}
+};
 
 export default ReadModal;
