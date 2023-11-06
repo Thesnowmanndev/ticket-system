@@ -1,7 +1,7 @@
-import Dashboard from '@/app/Dashboard/Dashboard';
+import ApplicationShell from '@/components/ApplicationShell/ApplicationShell';
 
 const app = () => {
-  return <Dashboard />;
+  return <ApplicationShell />;
 };
 
 export default app;

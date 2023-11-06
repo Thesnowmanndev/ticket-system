@@ -1,25 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
 
-import CreateModal from '../CreateModal/CreateModal';
-import BlurredBackground from '../Dashboard/BlurredBackground';
 import DropdownButtonSVG from '../svgs/DropdownButtonSVG';
 import PieChartSVG from '../svgs/PieChartSVG';
 import TicketSVG from '../svgs/TicketSVG';
 
-const MainLinks = () => {
-  const [createModalIsOpen, setCreateModalIsOpen] = useState(false);
-
-  function openCreateModal() {
-    setCreateModalIsOpen(true);
-  }
-
-  function closeCreateModal() {
-    setCreateModalIsOpen(false);
-  }
-
+const MainLinks = ({ openCreateModal }) => {
   return (
     <div>
       <ul className="space-y-2">
@@ -211,14 +198,6 @@ const MainLinks = () => {
           </ul>
         </li>
       </ul>
-      {createModalIsOpen && (
-        <div className="fixed inset-0 flex items-center justify-center z-50">
-          <BlurredBackground />
-          <div className="relative">
-            <CreateModal onClick={closeCreateModal} />
-          </div>
-        </div>
-      )}
     </div>
   );
 };
