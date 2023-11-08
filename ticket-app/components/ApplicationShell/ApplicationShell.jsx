@@ -3,10 +3,10 @@
 import { useState } from 'react';
 
 import BlurredBackground from '@/components/Dashboard/BlurredBackground';
-import Dashboard from '@/components/Dashboard/Dashboard';
 import Navbar from '@/components/Navbar/Navbar';
 import ReadModal from '@/components/ReadModal/ReadModal';
 import Sidebar from '@/components/Sidebar/Sidebar';
+import TicketPage from '@/components/TicketPage/page';
 import CreateModal from '../CreateModal/CreateModal';
 
 const ApplicationShell = () => {
@@ -36,7 +36,7 @@ const ApplicationShell = () => {
       <Sidebar openCreateModal={openCreateModal} />
 
       <main className="p-4 md:ml-64 pt-20 mt-8 lg:mt-0 ">
-        <Dashboard openReadModal={openReadModal} />
+        <TicketPage openReadModal={openReadModal} />
       </main>
 
       {readModalIsOpen && (
