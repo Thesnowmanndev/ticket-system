@@ -1,5 +1,4 @@
 import PriorityRating from '@/components/TicketCard/PriorityRating';
-import ProgressBar from '@/components/TicketCard/ProgressBar';
 import StatusDisplay from '@/components/TicketCard/StatusDisplay';
 
 const ReadModal = (props) => {
@@ -49,9 +48,6 @@ const ReadModal = (props) => {
               <p className="text-white text-xs my-1">
                 Created: 10/29/2023 5:34PM
               </p>
-            </div>
-            <div>
-              <ProgressBar />
             </div>
             <div>
               <StatusDisplay />
