@@ -1,22 +1,21 @@
 import PriorityRating from '@/components/TicketCard/PriorityRating';
 import StatusDisplay from '@/components/TicketCard/StatusDisplay';
 
-const TicketCard = () => {
+const TicketCard = ({ ticket }) => {
   return (
     <div className="rounded-lg border-gray-300 dark:border-gray-600 h-full overflow-y-auto">
       <div className="w-full h-full m-0 p-6 bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-200 hover:dark:bg-gray-700 hover:cursor-pointer">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Noteworthy technology acquisitions 2021
+          {ticket.title}
         </h5>
-        <PriorityRating />
+        <PriorityRating priority={ticket.priority} />
         <div className="flex flex-col">
           <p className="text-white text-xs my-1">Created: 10/29/2023 5:34PM</p>
         </div>
-        <StatusDisplay />
+        <StatusDisplay status={ticket.status} />
 
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 whitespace-pre-wrap my-2">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          {ticket.description}
         </p>
         <p
           href="#"
